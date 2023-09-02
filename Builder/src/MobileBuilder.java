@@ -17,4 +17,9 @@ public class MobileBuilder extends Builder {
     public Bike createBike() {
         return bike;
     }
+
+    @Override
+    public String toString() {
+        return "mobile"+ super.toString();
+    }
 }

@@ -13,4 +13,10 @@ public class OfoBuilder extends Builder{
     public Bike createBike() {
         return bike;
     }
+
+
+    @Override
+    public String toString() {
+        return "OfoBike" + super.toString();
+    }
 }

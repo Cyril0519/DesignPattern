@@ -10,4 +10,10 @@ public abstract class Builder {
     public abstract void buildSeat();
 
     public abstract Bike createBike();
+
+    public Bike construct() {
+        this.buildFrame();
+        this.buildSeat();
+        return this.createBike();
+    }
 }
