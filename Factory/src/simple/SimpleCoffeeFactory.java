@@ -1,7 +1,7 @@
 package simple;
 
 public class SimpleCoffeeFactory {
-    public Coffee createCoffee(String type) {
+    public Coffee createCoffee(String type) {   // 加上static变成静态工厂
         Coffee coffee = null;
         switch (type) {
             case "american":
