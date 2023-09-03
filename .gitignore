@@ -27,3 +27,4 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+/Proxy/cglib_proxy/target/
