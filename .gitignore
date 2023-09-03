@@ -2,6 +2,7 @@
 */target/
 /out
 !.mvn/wrapper/maven-wrapper.jar
+/test
 
 ### STS ###
 .apt_generated
